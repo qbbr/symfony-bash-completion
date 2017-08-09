@@ -1,6 +1,6 @@
 #!/bin/bash
 # composer autocomplete
-# Copyright (C) 2013 Sokolov Innokenty, <imqbbr@gmail.com>
+# Copyright (C) 2017 Sokolov Innokenty, <imqbbr@gmail.com>
 
 _composer()
 {
