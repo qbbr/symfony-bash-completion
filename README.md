@@ -12,8 +12,8 @@
 Copy bash scripts to `bash_completion.d` dir.
 
 ```bash
-cp symfony-autocomplete.bash /etc/bash_completion.d/
-cp composer-autocomplete.bash /etc/bash_completion.d/
+sudo ln -s $PWD/symfony-autocomplete.bash /etc/bash_completion.d/
+sudo ln -s $PWD/composer-autocomplete.bash /etc/bash_completion.d/
 ```
 
 Add the following line to your `~/.bashrc`:
