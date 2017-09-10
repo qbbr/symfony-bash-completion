@@ -31,7 +31,7 @@ if ! shopt -oq posix; then
 fi
 ```
 
-## Use
+## Usage
 
 Restart your bash and you should be able to autocomplete in a Symfony project:
 
