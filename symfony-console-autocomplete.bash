@@ -1,6 +1,4 @@
 #!/bin/bash
-# symfony console autocomplete
-# Copyright (C) 2017 Sokolov Innokenty, <imqbbr@gmail.com>
 
 _console()
 {
