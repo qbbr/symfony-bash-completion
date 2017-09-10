@@ -1,7 +1,8 @@
 # Symfony 2/3 console and Composer bash autocomplete
 
 [Composer](https://getcomposer.org/)  
-[Symfony Console component](https://symfony.com/doc/current/components/console.html)
+[Symfony Console component](https://symfony.com/doc/current/components/console.html)  
+[Symfony Installer](https://github.com/symfony/symfony-installer)
 
 ## Requirements
 
