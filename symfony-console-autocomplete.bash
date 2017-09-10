@@ -1,8 +1,8 @@
 #!/bin/bash
-# symfony autocomplete
+# symfony console autocomplete
 # Copyright (C) 2017 Sokolov Innokenty, <imqbbr@gmail.com>
 
-_symfony()
+_console()
 {
     local cur=${COMP_WORDS[COMP_CWORD]}
     local cmd=${COMP_WORDS[0]}
@@ -12,5 +12,5 @@ _symfony()
     fi
 }
 
-complete -F _symfony symfony
-complete -F _symfony symfony.phar
+complete -F _console console
+COMP_WORDBREAKS=${COMP_WORDBREAKS//:}

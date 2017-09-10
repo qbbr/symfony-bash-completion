@@ -12,8 +12,9 @@
 Copy bash scripts to `bash_completion.d` dir.
 
 ```bash
-sudo ln -s $PWD/symfony-autocomplete.bash /etc/bash_completion.d/
-sudo ln -s $PWD/composer-autocomplete.bash /etc/bash_completion.d/
+sudo ln -sf $PWD/symfony-autocomplete.bash /etc/bash_completion.d/
+sudo ln -sf $PWD/symfony-console-autocomplete.bash /etc/bash_completion.d/
+sudo ln -sf $PWD/composer-autocomplete.bash /etc/bash_completion.d/
 ```
 
 Add the following line to your `~/.bashrc`:
@@ -36,4 +37,5 @@ Restart your bash and you should be able to autocomplete in a Symfony project:
 ```bash
 ./bin/console [TAB]
 composer [TAB]
+symfony [TAB]
 ```
