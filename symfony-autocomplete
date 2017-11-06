@@ -1,0 +1,26 @@
+# Symfony and other bros (4 in 1) console bash autocomplete
+#
+# Supports:
+#  * symfony console
+#  * symfony installer
+#  * php-cs-fixer
+#  * composer
+#
+# @Copyright (C) 2017 Sokolov Innokenty, <im@qbbr.io>
+
+_console()
+{
+    local cur=${COMP_WORDS[COMP_CWORD]}
+    local cmd=${COMP_WORDS[0]}
+    if ($cmd > /dev/null 2>&1)
+    then
+        COMPREPLY=( $(compgen -W "$($cmd list --raw | cut -f 1 -d " " | tr "\n" " ")" -- $cur) )
+    fi
+}
+
+complete -F _console console
+complete -F _console symfony
+complete -F _console php-cs-fixer
+complete -F _console composer
+complete -F _console composer.phar
+COMP_WORDBREAKS=${COMP_WORDBREAKS//:}

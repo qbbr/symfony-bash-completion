@@ -1,19 +1,24 @@
-# Symfony 2/3 console and Composer bash autocomplete
+# Symfony and other bros (4 in 1) console bash autocomplete
 
-[Composer](https://getcomposer.org/)  
-[Symfony Console component](https://symfony.com/doc/current/components/console.html)
+## Supports
+
+ * [Symfony Console component](https://symfony.com/doc/current/components/console.html)
+ * [The Symfony Installer](https://github.com/symfony/symfony-installer)
+ * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
+ * [Composer](https://getcomposer.org/)
 
 ## Requirements
 
-[bash-completion](https://packages.debian.org/ru/stretch/bash-completion) must be installed.
+[bash-completion](https://github.com/scop/bash-completion) must be installed.
+
+```bash
+apt install bash-completion
+```
 
 ## Installation
 
-Copy bash scripts to `bash_completion.d` dir.
-
 ```bash
-sudo ln -s $PWD/symfony-autocomplete.bash /etc/bash_completion.d/
-sudo ln -s $PWD/composer-autocomplete.bash /etc/bash_completion.d/
+make install
 ```
 
 Add the following line to your `~/.bashrc`:
@@ -29,11 +34,22 @@ if ! shopt -oq posix; then
 fi
 ```
 
-## Use
+## Uninstall
+
+```bash
+make uninstall
+```
+
+## Usage
 
 Restart your bash and you should be able to autocomplete in a Symfony project:
 
 ```bash
 ./bin/console [TAB]
+console [TAB]
+./bin/php-cs-fixer [TAB]
+php-cs-fixer [TAB]
+symfony [TAB]
 composer [TAB]
+composer.phar [TAB]
 ```
