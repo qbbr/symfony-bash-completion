@@ -42,7 +42,7 @@ make uninstall
 
 ## Usage
 
-Restart your bash and you should be able to autocomplete in a Symfony project:
+Restart your bash and you should be able to autocomplete commands in a Symfony project console:
 
 ```bash
 ./bin/console [TAB]
