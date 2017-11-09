@@ -1,3 +1,5 @@
+.PHONY: install uninstall
+
 install:
 	ln -sf $${PWD}/symfony-autocomplete /etc/bash_completion.d/
 
