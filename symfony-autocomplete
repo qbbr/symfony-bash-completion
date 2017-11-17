@@ -5,6 +5,7 @@
 #  * symfony installer
 #  * php-cs-fixer
 #  * composer
+#  * deployer (dep)
 #
 # @Copyright (C) 2017 Sokolov Innokenty, <im@qbbr.io>
 
@@ -23,4 +24,6 @@ complete -F _console symfony
 complete -F _console php-cs-fixer
 complete -F _console composer
 complete -F _console composer.phar
+complete -F _console dep
+complete -F _console deployer.phar
 COMP_WORDBREAKS=${COMP_WORDBREAKS//:}

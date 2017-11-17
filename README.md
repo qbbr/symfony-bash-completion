@@ -6,6 +6,7 @@
  * [The Symfony Installer](https://github.com/symfony/symfony-installer)
  * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
  * [Composer](https://getcomposer.org/)
+ * [Deployer](https://deployer.org/)
 
 ## Requirements
 
@@ -52,4 +53,6 @@ php-cs-fixer [TAB]
 symfony [TAB]
 composer [TAB]
 composer.phar [TAB]
+deployer [TAB]
+deployer.phar [TAB]
 ```
