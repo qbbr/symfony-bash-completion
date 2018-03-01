@@ -49,9 +49,9 @@ Restart your bash and you should be able to autocomplete commands in a Symfony p
 ```bash
 ./bin/console [TAB]
 console [TAB]
+symfony [TAB]
 ./bin/security-checker
 ./bin/php-cs-fixer [TAB]
-symfony [TAB]
 php-cs-fixer [TAB]
 composer [TAB]
 composer.phar [TAB]
