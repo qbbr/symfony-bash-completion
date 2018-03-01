@@ -4,6 +4,7 @@
 
  * [Symfony Console component](https://symfony.com/doc/current/components/console.html)
  * [The Symfony Installer](https://github.com/symfony/symfony-installer)
+ * [SensioLabs Security Checker](https://github.com/sensiolabs/security-checker)
  * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
  * [Composer](https://getcomposer.org/)
  * [Deployer](https://deployer.org/)
@@ -48,9 +49,10 @@ Restart your bash and you should be able to autocomplete commands in a Symfony p
 ```bash
 ./bin/console [TAB]
 console [TAB]
+./bin/security-checker
 ./bin/php-cs-fixer [TAB]
-php-cs-fixer [TAB]
 symfony [TAB]
+php-cs-fixer [TAB]
 composer [TAB]
 composer.phar [TAB]
 deployer [TAB]

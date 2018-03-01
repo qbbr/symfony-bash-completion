@@ -3,6 +3,7 @@
 # Supports:
 #  * symfony console
 #  * symfony installer
+#  * security-checker
 #  * php-cs-fixer
 #  * composer
 #  * deployer (dep)
@@ -21,6 +22,7 @@ _console()
 
 complete -F _console console
 complete -F _console symfony
+complete -F _console security-checker
 complete -F _console php-cs-fixer
 complete -F _console composer
 complete -F _console composer.phar
