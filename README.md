@@ -1,4 +1,4 @@
-# Symfony and other bros (4 in 1) console bash autocomplete
+# Symfony and other bros console bash autocomplete
 
 ## Supports
 
