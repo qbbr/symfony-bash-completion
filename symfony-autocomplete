@@ -7,8 +7,9 @@
 #  * php-cs-fixer
 #  * composer
 #  * deployer (dep)
+#  * artisan laravel console
 #
-# @Copyright (C) 2018 Sokolov Innokenty, <im@qbbr.io>
+# @Copyright (C) 2019 Sokolov Innokenty, <im@qbbr.io>
 
 _console()
 {
@@ -28,4 +29,5 @@ complete -F _console composer
 complete -F _console composer.phar
 complete -F _console dep
 complete -F _console deployer.phar
+complete -F _console artisan
 COMP_WORDBREAKS=${COMP_WORDBREAKS//:}

@@ -8,6 +8,7 @@
  * [PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer)
  * [Composer](https://getcomposer.org/)
  * [Deployer](https://deployer.org/)
+ * [Laravel Artisan Console](https://laravel.com/docs/5.7/artisan)
 
 ## Requirements
 
@@ -57,4 +58,5 @@ composer [TAB]
 composer.phar [TAB]
 deployer [TAB]
 deployer.phar [TAB]
+./artisan [TAB]
 ```
